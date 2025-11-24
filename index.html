@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Emoji Flappy Bird (Hard Mode)</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div id="game-container">
+        <div id="high-score-display">Best: 0</div>
+        <div id="score-board">0</div>
+        <div id="bird">🏃🏻‍♂️‍➡️</div>
+        
+        <div id="start-screen">
+            <div id="start-text">Click or Press Space to Start</div>
+        </div>
+
+        <div id="game-over-screen">
+            <div id="game-over-text">GAME OVER</div>
+            <div id="final-score" style="color:white; font-size:20px; margin-bottom:20px;"></div>
+            <button onclick="resetGame()">Play Again</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
